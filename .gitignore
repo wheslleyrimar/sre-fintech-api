@@ -1,0 +1,8 @@
+# Binaries (built from source)
+bin/
+
+# Embedded repo (add as submodule or copy sources if needed)
+.fintech-api-failures-src/
+
+# Logs
+*.log
