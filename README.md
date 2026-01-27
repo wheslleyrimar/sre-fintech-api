@@ -1,6 +1,8 @@
 # SRE Fintech API
 
-SRE-style API focused on **fintech**: accounts, tariff adjustments, and reports. It forwards requests to the [fintech-api-failures](../fintech-api-failures) backend, which simulates failures for resilience and chaos-engineering exercises.
+SRE-style API focused on **fintech**: accounts, tariff adjustments, and reports. It forwards requests to the [fintech-api-failures](https://github.com/wheslleyrimar/fintech-api-failures) backend, which simulates failures for resilience and chaos-engineering exercises.
+
+Para o **desafio do Caso 1** (disponibilidade e resilência), veja o enunciado em **[docs/caso-1-enunciado.md](docs/caso-1-enunciado.md)**. O script de validação usado nesse desafio é o `case_1.js` (argumento `case` = `1`).
 
 ## Requirements
 
@@ -116,6 +118,7 @@ From the project root:
 .
 ├── bin/                  # Binaries (created by ./install.sh): fintech-api-failures, sre
 ├── cmd/api/              # Entrypoint
+├── docs/                 # Documentação dos desafios (enunciados, cenários)
 ├── internal/
 │   ├── domain/           # Account, TariffAdjustmentRequest, Report
 │   ├── http/             # Chi handlers (accounts, report, search)
