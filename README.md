@@ -2,7 +2,7 @@
 
 SRE-style API focused on **fintech**: accounts, tariff adjustments, and reports. It forwards requests to the [fintech-api-failures](https://github.com/wheslleyrimar/fintech-api-failures) backend, which simulates failures for resilience and chaos-engineering exercises.
 
-Para o **desafio do Caso 1** (disponibilidade e resilência), veja o enunciado em **[docs/caso-1-enunciado.md](docs/caso-1-enunciado.md)**. O script de validação usado nesse desafio é o `case_1.js` (argumento `case` = `1`).
+Para o **desafio do Caso 1** (disponibilidade e resilência), veja o enunciado em **[docs/caso-1-enunciado.md](docs/caso-1-enunciado.md)**. O script de validação usado nesse desafio é o `case_1.js` (argumento `case` = `1`). Para o **Caso 2** (eficiência e performance), veja **[docs/caso-2-enunciado.md](docs/caso-2-enunciado.md)** (`case_2.js`). Para o **Caso 3** (integridade e consistência), veja **[docs/caso-3-enunciado.md](docs/caso-3-enunciado.md)** (`case_3.js`).
 
 ## Requirements
 
